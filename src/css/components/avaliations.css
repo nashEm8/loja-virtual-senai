@@ -1,0 +1,39 @@
+#avaliations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+#avaliations .content-avaliations{
+    width: 1200px;
+}
+
+.content-avaliations h2{
+    text-align: center;
+    font-weight: 700;
+}
+
+.content-avaliations .cards-avaliation{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+
+.content-avaliations .cards-avaliation .card{
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+.content-avaliations .cards-avaliation .card h4{
+    padding: 5px 0;
+    font-weight: normal;
+}

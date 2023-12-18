@@ -1,0 +1,35 @@
+header{
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    width: 1200px;
+    padding: 0!important;
+}
+
+header nav .menu{
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-between;
+}
+
+header nav form{
+    display: flex;
+}
+
+header nav .form-control{
+    border: 1px solid #000;
+    border-radius: 0;
+}
+
+header nav form button{
+    border-radius: 0;
+}
+
+header nav ul li a{
+    margin: 0 15px;
+    font-weight: 800!important;
+    text-transform: uppercase;
+    color: #000;
+}

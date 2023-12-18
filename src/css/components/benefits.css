@@ -1,0 +1,32 @@
+#benefits{
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 2px -2px #000;
+}
+
+#benefits .content-benefits{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+#benefits .content-benefits .icon1,
+#benefits .content-benefits .icon2,
+#benefits .content-benefits .icon3{
+    display: flex;
+    align-items: center;
+}
+
+#benefits .content-benefits .icon1 h4,
+#benefits .content-benefits .icon2 h4,
+#benefits .content-benefits .icon3 h4{
+    font-size: 18px;
+    margin: 10px 0 10px 10px;
+}
+
+#benefits .content-benefits .icon1 img,
+#benefits .content-benefits .icon2 img,
+#benefits .content-benefits .icon3 img{
+    width: 60px;
+}

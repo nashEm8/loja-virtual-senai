@@ -1,0 +1,56 @@
+main{
+    display: flex;
+    justify-content: center;
+    background-image: url('../../img/banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 460px;
+}
+
+main .content-banner{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .content-banner .content-left-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .content-banner .content-left-side h1{
+    font-size: 60px;
+    line-height: 4rem;
+}
+
+main .content-banner .content-left-side p{
+    padding: 25px 0;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+main .content-banner .content-left-side h1,
+main .content-banner .content-left-side p{
+    color: #fff;
+}
+
+main .content-banner .content-left-side .button-buy{
+    width: 50%;
+    text-align: center;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+main .content-banner .content-rigth-side{
+    display: flex;
+    align-items: flex-end;
+    height: 460px;
+}
+
+main .content-banner .content-rigth-side img{
+    width: 320px;
+}

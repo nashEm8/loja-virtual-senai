@@ -1,0 +1,13 @@
+@import '../css/components/topo.css';
+@import '../css/components/banner.css';
+@import '../css/components/benefits.css';
+@import '../css/components/cartegory.css';
+@import '../css/components/products.css';
+@import '../css/components/avaliations.css';
+@import '../css/components/footer.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
