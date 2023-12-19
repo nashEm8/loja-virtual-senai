@@ -7,7 +7,6 @@
 }
 
 .top-content-products{
-    width: 1200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,6 +27,7 @@
 .content-products{
     width: 1200px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 85px 0 150px 0;
     background-color: #fff;
@@ -35,7 +35,7 @@
 
 .content-products .product{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 16px;
