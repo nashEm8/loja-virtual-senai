@@ -1,12 +1,5 @@
 #avaliations{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 100px;
-}
-
-#avaliations .content-avaliations{
-    width: 1200px;
 }
 
 .content-avaliations h2{
@@ -22,11 +15,7 @@
 }
 
 .content-avaliations .cards-avaliation .card{
-    width: 280px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    width: 260px;
     margin-top: 50px;
     padding: 10px 20px;
     border-radius: 5px;
@@ -36,4 +25,33 @@
 .content-avaliations .cards-avaliation .card h4{
     padding: 5px 0;
     font-weight: normal;
+}
+
+@media screen and (max-width: 990px){
+    .content-avaliations .cards-avaliation .card{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .content-avaliations h2{
+        font-size: 40px;
+    }
+
+    .content-avaliations .cards-avaliation .card{
+        width: 100%;
+    }
+
+    #avaliations .card:nth-child(5),
+    #avaliations .card:nth-child(6),
+    #avaliations .card:nth-child(7),
+    #avaliations .card:nth-child(8){
+        display: none!important;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .cards-avaliation{
+        justify-content: center!important;
+    }
 }

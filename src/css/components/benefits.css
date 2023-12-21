@@ -1,21 +1,10 @@
 #benefits{
-    display: flex;
-    justify-content: center;
     box-shadow: 0 4px 2px -2px #000;
 }
 
 #benefits .content-benefits{
     width: 1000px;
-    display: flex;
-    justify-content: space-between;
     padding: 20px 0;
-}
-
-#benefits .content-benefits .icon1,
-#benefits .content-benefits .icon2,
-#benefits .content-benefits .icon3{
-    display: flex;
-    align-items: center;
 }
 
 #benefits .content-benefits .icon1 h4,
@@ -29,4 +18,14 @@
 #benefits .content-benefits .icon2 img,
 #benefits .content-benefits .icon3 img{
     width: 60px;
+}
+
+@media screen and (max-width: 1050px){
+    #benefits{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 770px){
+
 }
