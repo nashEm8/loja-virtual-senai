@@ -1,7 +1,7 @@
 # Infinity Games - Loja Virtual 
 Site construído durante o módulo de codificação front end do curso Full Stack do Senai. 
 <br/>
-<a href="https://infinitygamess.netlify">Clique aqui para visualizar</a>
+<a href="https://infinitygamess.netlify.app">Clique aqui para visualizar</a>
 <br><br>
 ![page loja senai](https://github.com/nashEm8/loja-virtual-senai/assets/101338996/57f52365-4d40-495d-87c1-06bc8cb3d367)
 
