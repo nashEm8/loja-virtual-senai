@@ -5,6 +5,7 @@
 @import '../css/components/products.css';
 @import '../css/components/avaliations.css';
 @import '../css/components/footer.css';
+@import '../css/components/login.css';
 
 *{
     margin: 0;
