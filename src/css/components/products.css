@@ -38,7 +38,22 @@
     margin-top: 10px;
 }
 
+.content-products .product2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 16px;
+    border: 1px solid #000;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
 .content-products .product img{
+    width: 220px;
+}
+
+.content-products .product2 img{
     width: 220px;
 }
 
@@ -47,7 +62,20 @@
     font-size: 30px;
 }
 
+.content-products .product2 h3{
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
 .content-products .product h4{
+    font-size: 25px;
+    -webkit-text-stroke-width: 1px; /* largura da borda */
+    -webkit-text-stroke-color: #000; /* cor da borda */
+    color: #008AB6;
+}
+
+.content-products .product2 h4{
     font-size: 25px;
     -webkit-text-stroke-width: 1px; /* largura da borda */
     -webkit-text-stroke-color: #000; /* cor da borda */
@@ -65,7 +93,25 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
+.content-products .product2 .button-product{
+    width: 90%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px 0;
+    font-weight: 500;
+    background-color: #6EFD73;
+    border: 1px solid #000;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
 .content-products .product .button-product:hover{
+    transition: .3s all ease-in-out;
+    cursor: pointer;
+    background-color: #C63636;
+    color: #fff;
+}
+
+.content-products .product2 .button-product:hover{
     transition: .3s all ease-in-out;
     cursor: pointer;
     background-color: #C63636;
@@ -81,7 +127,15 @@
         margin-top: 80px;
     }
 
+    .content-products .product2{
+        margin-top: 80px;
+    }
+
     .content-products .product img{
+        width: 280px;
+    }
+
+    .content-products .product2 img{
         width: 280px;
     }
 }
@@ -92,6 +146,10 @@
     }
 
     .content-products .product{
+        margin: 20px;
+    }
+
+    .content-products .product2{
         margin: 20px;
     }
 }
